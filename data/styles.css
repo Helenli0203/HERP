@@ -116,6 +116,10 @@
   text-align:left;
 }
 .table_cell {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  color:#000000;
 }
 .flow_shape {
 }
