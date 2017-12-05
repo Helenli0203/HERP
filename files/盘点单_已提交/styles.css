@@ -47,7 +47,7 @@
   left:0px;
   top:0px;
   width:1047px;
-  height:1002px;
+  height:881px;
   background:inherit;
   background-color:rgba(255, 255, 255, 1);
   border:none;
@@ -62,13 +62,13 @@
   left:50px;
   top:137px;
   width:1047px;
-  height:1002px;
+  height:881px;
   color:#0000FF;
 }
 #u3 {
   position:absolute;
   left:2px;
-  top:493px;
+  top:432px;
   width:1043px;
   visibility:hidden;
   word-wrap:break-word;
@@ -252,8 +252,8 @@
 }
 #u14 {
   position:absolute;
-  left:728px;
-  top:239px;
+  left:119px;
+  top:236px;
   width:75px;
   height:20px;
 }
@@ -283,8 +283,8 @@
 }
 #u16 {
   position:absolute;
-  left:108px;
-  top:281px;
+  left:714px;
+  top:234px;
   width:83px;
   height:20px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -318,7 +318,7 @@
 #u18 {
   position:absolute;
   left:63px;
-  top:602px;
+  top:504px;
   width:57px;
   height:20px;
   font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
@@ -393,8 +393,8 @@
 }
 #u24 {
   position:absolute;
-  left:728px;
-  top:283px;
+  left:117px;
+  top:314px;
   width:71px;
   height:20px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -425,7 +425,7 @@
 #u26 {
   position:absolute;
   left:148px;
-  top:475px;
+  top:404px;
   width:43px;
   height:20px;
 }
@@ -453,7 +453,7 @@
 #u28 {
   position:absolute;
   left:119px;
-  top:239px;
+  top:277px;
   width:75px;
   height:18px;
 }
@@ -485,7 +485,7 @@
 #u30 {
   position:absolute;
   left:91px;
-  top:693px;
+  top:595px;
   width:92px;
   height:26px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -519,8 +519,8 @@
 }
 #u32 {
   position:absolute;
-  left:111px;
-  top:424px;
+  left:728px;
+  top:361px;
   width:71px;
   height:20px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -537,7 +537,7 @@
 #u34 {
   position:absolute;
   left:84px;
-  top:841px;
+  top:743px;
   width:984px;
   height:205px;
 }
@@ -1669,14 +1669,14 @@
 #u34_ann {
   position:absolute;
   left:1056px;
-  top:837px;
+  top:739px;
   width:1px;
   height:1px;
 }
 #u135 {
   position:absolute;
   left:93px;
-  top:800px;
+  top:702px;
   width:302px;
   height:22px;
 }
@@ -1746,7 +1746,7 @@
 #u139 {
   position:absolute;
   left:191px;
-  top:239px;
+  top:277px;
   width:36px;
   height:20px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -1779,8 +1779,8 @@
 }
 #u141 {
   position:absolute;
-  left:803px;
-  top:239px;
+  left:194px;
+  top:236px;
   width:99px;
   height:20px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -1810,8 +1810,8 @@
 }
 #u143 {
   position:absolute;
-  left:191px;
-  top:283px;
+  left:797px;
+  top:236px;
   width:57px;
   height:20px;
 }
@@ -1841,8 +1841,8 @@
 }
 #u145 {
   position:absolute;
-  left:119px;
-  top:324px;
+  left:728px;
+  top:277px;
   width:71px;
   height:20px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -1875,8 +1875,8 @@
 }
 #u147 {
   position:absolute;
-  left:191px;
-  top:326px;
+  left:800px;
+  top:279px;
   width:29px;
   height:20px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
@@ -1906,8 +1906,8 @@
 }
 #u149 {
   position:absolute;
-  left:191px;
-  top:368px;
+  left:800px;
+  top:321px;
   width:92px;
   height:16px;
 }
@@ -1934,8 +1934,8 @@
 }
 #u151 {
   position:absolute;
-  left:809px;
-  top:283px;
+  left:191px;
+  top:314px;
   width:29px;
   height:16px;
 }
@@ -2033,8 +2033,8 @@
 }
 #u157 {
   position:absolute;
-  left:727px;
-  top:326px;
+  left:119px;
+  top:365px;
   width:71px;
   height:20px;
 }
@@ -2061,8 +2061,8 @@
 }
 #u159 {
   position:absolute;
-  left:808px;
-  top:326px;
+  left:200px;
+  top:365px;
   width:115px;
   height:16px;
 }
@@ -2089,8 +2089,8 @@
 }
 #u161 {
   position:absolute;
-  left:191px;
-  top:424px;
+  left:808px;
+  top:361px;
   width:168px;
   height:16px;
 }
@@ -2119,7 +2119,7 @@
 #u163 {
   position:absolute;
   left:222px;
-  top:693px;
+  top:595px;
   width:113px;
   height:20px;
   color:#000000;
@@ -2148,7 +2148,7 @@
 #u165 {
   position:absolute;
   left:191px;
-  top:477px;
+  top:404px;
   width:257px;
   height:49px;
 }
@@ -2169,7 +2169,7 @@
 #u167 {
   position:absolute;
   left:648px;
-  top:730px;
+  top:632px;
   width:409px;
   height:28px;
 }
@@ -2184,7 +2184,7 @@
 #u167_ann {
   position:absolute;
   left:1050px;
-  top:726px;
+  top:628px;
   width:1px;
   height:1px;
 }
