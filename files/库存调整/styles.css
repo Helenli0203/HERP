@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:644px;
+  width:710px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -12,7 +12,7 @@
   position:absolute;
   z-index:0;
 }
-#u23437_div {
+#u0_div {
   position:absolute;
   left:0px;
   top:0px;
@@ -30,7 +30,7 @@
   font-style:normal;
   font-size:24px;
 }
-#u23437 {
+#u0 {
   position:absolute;
   left:52px;
   top:15px;
@@ -41,14 +41,14 @@
   font-style:normal;
   font-size:24px;
 }
-#u23438 {
+#u1 {
   position:absolute;
   left:0px;
   top:0px;
   width:265px;
   white-space:nowrap;
 }
-#u23439_div {
+#u2_div {
   position:absolute;
   left:0px;
   top:0px;
@@ -66,7 +66,7 @@
   font-style:normal;
   font-size:18px;
 }
-#u23439 {
+#u2 {
   position:absolute;
   left:52px;
   top:81px;
@@ -77,32 +77,90 @@
   font-style:normal;
   font-size:18px;
 }
-#u23440 {
+#u3 {
   position:absolute;
   left:0px;
   top:0px;
   width:265px;
   white-space:nowrap;
 }
-#u23441_img {
+#u4_img {
   position:absolute;
   left:0px;
   top:0px;
   width:592px;
   height:511px;
 }
-#u23441 {
+#u4 {
   position:absolute;
   left:52px;
   top:110px;
   width:592px;
   height:511px;
 }
-#u23442 {
+#u5 {
   position:absolute;
   left:2px;
   top:248px;
   width:588px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u6_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:151px;
+  height:19px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+  font-weight:650;
+  font-style:normal;
+  font-size:18px;
+}
+#u6 {
+  position:absolute;
+  left:52px;
+  top:679px;
+  width:151px;
+  height:19px;
+  font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+  font-weight:650;
+  font-style:normal;
+  font-size:18px;
+}
+#u7 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:151px;
+  white-space:nowrap;
+}
+#u8_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:643px;
+  height:370px;
+}
+#u8 {
+  position:absolute;
+  left:67px;
+  top:716px;
+  width:643px;
+  height:370px;
+}
+#u9 {
+  position:absolute;
+  left:2px;
+  top:177px;
+  width:639px;
   visibility:hidden;
   word-wrap:break-word;
 }
