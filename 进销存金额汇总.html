@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>进销存金额汇总</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/进销存金额汇总/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/进销存金额汇总/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24591" class="ax_default box_2">
+        <div id="u24591_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24592" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24593" class="ax_default box_3">
+        <div id="u24593_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24594" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u24595" class="ax_default icon">
+        <img id="u24595_img" class="img " src="images/选择调整类型/popupclose_u933.png"/>
+        <!-- Unnamed () -->
+        <div id="u24596" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24597" class="ax_default label">
+        <div id="u24597_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24598" class="text" style="visibility: visible;">
+          <p><span>进销存金额汇总</span></p>
+        </div>
+      </div>
+
+      <!-- <h4> (Rectangle) -->
+      <div id="u24599" class="ax_default heading_41" data-label="&lt;h4&gt;">
+        <div id="u24599_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24600" class="text" style="visibility: visible;">
+          <p><span>进销存金额汇总</span></p>
+        </div>
+      </div>
+
+      <!-- refreshButton (Group) -->
+      <div id="u24601" class="ax_default" data-label="refreshButton">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u24602" class="ax_default link_button">
+          <div id="u24602_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24603" class="text" style="visibility: visible;">
+            <p><span>导出</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Placeholder) -->
+        <div id="u24604" class="ax_default placeholder">
+          <img id="u24604_img" class="img " src="images/库存调整单列表_非空/u63.png"/>
+          <!-- Unnamed () -->
+          <div id="u24605" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item1 (Group) -->
+      <div id="u24606" class="ax_default" data-label="item1">
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24607" class="ax_default droplist1">
+          <select id="u24607_input">
+            <option selected value="期初结存">期初结存</option>
+            <option value="采购入库">采购入库</option>
+            <option value="调拨入库">调拨入库</option>
+            <option value="调整入库">调整入库</option>
+            <option value="其它入库">其它入库</option>
+            <option value="销售出库">销售出库</option>
+            <option value="调拨出库">调拨出库</option>
+            <option value="调整出库">调整出库</option>
+            <option value="报损出">报损出</option>
+            <option value="其它出库">其它出库</option>
+            <option value="期末结存">期末结存</option>
+            <option value="盈亏金额">盈亏金额</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24608" class="ax_default droplist1">
+          <select id="u24608_input">
+            <option selected value="+">+</option>
+            <option value="-">-</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24609" class="ax_default label">
+        <div id="u24609_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24610" class="text" style="visibility: visible;">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成本金额</span><span style="font-family:'ArialMT', 'Arial';"> = </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24611" class="ax_default label">
+        <div id="u24611_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24612" class="text" style="visibility: visible;">
+          <p><span>&nbsp;</span></p>
+        </div>
+      </div>
+
+      <!-- item2 (Group) -->
+      <div id="u24613" class="ax_default ax_default_hidden" data-label="item2" style="display: none; visibility: hidden">
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24614" class="ax_default droplist1">
+          <select id="u24614_input">
+            <option selected value="期初结存">期初结存</option>
+            <option value="采购入库">采购入库</option>
+            <option value="调拨入库">调拨入库</option>
+            <option value="调整入库">调整入库</option>
+            <option value="其它入库">其它入库</option>
+            <option value="销售出库">销售出库</option>
+            <option value="调拨出库">调拨出库</option>
+            <option value="调整出库">调整出库</option>
+            <option value="报损出">报损出</option>
+            <option value="其它出库">其它出库</option>
+            <option value="期末结存">期末结存</option>
+            <option value="盈亏金额">盈亏金额</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24615" class="ax_default droplist1">
+          <select id="u24615_input">
+            <option selected value="+">+</option>
+            <option value="-">-</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- item3 (Group) -->
+      <div id="u24616" class="ax_default ax_default_hidden" data-label="item3" style="display: none; visibility: hidden">
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24617" class="ax_default droplist1">
+          <select id="u24617_input">
+            <option selected value="期初结存">期初结存</option>
+            <option value="采购入库">采购入库</option>
+            <option value="调拨入库">调拨入库</option>
+            <option value="调整入库">调整入库</option>
+            <option value="其它入库">其它入库</option>
+            <option value="销售出库">销售出库</option>
+            <option value="调拨出库">调拨出库</option>
+            <option value="调整出库">调整出库</option>
+            <option value="报损出">报损出</option>
+            <option value="其它出库">其它出库</option>
+            <option value="期末结存">期末结存</option>
+            <option value="盈亏金额">盈亏金额</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24618" class="ax_default droplist1">
+          <select id="u24618_input">
+            <option selected value="+">+</option>
+            <option value="-">-</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- item4 (Group) -->
+      <div id="u24619" class="ax_default ax_default_hidden" data-label="item4" style="display: none; visibility: hidden">
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24620" class="ax_default droplist1">
+          <select id="u24620_input">
+            <option selected value="期初结存">期初结存</option>
+            <option value="采购入库">采购入库</option>
+            <option value="调拨入库">调拨入库</option>
+            <option value="调整入库">调整入库</option>
+            <option value="其它入库">其它入库</option>
+            <option value="销售出库">销售出库</option>
+            <option value="调拨出库">调拨出库</option>
+            <option value="调整出库">调整出库</option>
+            <option value="报损出">报损出</option>
+            <option value="其它出库">其它出库</option>
+            <option value="期末结存">期末结存</option>
+            <option value="盈亏金额">盈亏金额</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (Droplist) -->
+        <div id="u24621" class="ax_default droplist1">
+          <select id="u24621_input">
+            <option selected value="+">+</option>
+            <option value="-">-</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24622" class="ax_default primary_button">
+        <div id="u24622_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24623" class="text" style="visibility: visible;">
+          <p><span>计算成本</span></p>
+        </div>
+      </div>
+
+      <!-- selection (Group) -->
+      <div id="u24624" class="ax_default" data-label="selection">
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u24625" class="ax_default line">
+          <img id="u24625_img" class="img " src="images/进销存金额汇总/u24625.png"/>
+          <!-- Unnamed () -->
+          <div id="u24626" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u24627" class="ax_default label">
+          <div id="u24627_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24628" class="text" style="visibility: visible;">
+            <p><span>2017-12-1&nbsp; - 2017-12-31</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u24629" class="ax_default label">
+        <div id="u24629_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24630" class="text" style="visibility: visible;">
+          <p><span>营业日：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u24631" class="ax_default image">
+        <img id="u24631_img" class="img " src="images/进销存金额汇总/u24631.png"/>
+        <!-- Unnamed () -->
+        <div id="u24632" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u24633" class="ax_default">
+
+        <!-- Unnamed (Placeholder) -->
+        <div id="u24634" class="ax_default placeholder">
+          <img id="u24634_img" class="img " src="images/库存调整单列表_非空/u63.png"/>
+          <!-- Unnamed () -->
+          <div id="u24635" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- tabelTitile (Group) -->
+        <div id="u24636" class="ax_default ax_default_hidden" data-label="tabelTitile" style="display: none; visibility: hidden">
+
+          <!-- Unnamed (Group) -->
+          <div id="u24637" class="ax_default">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u24638" class="ax_default flow_shape">
+              <img id="u24638_img" class="img " src="images/物品进销存报表_含期末盘点/u20830.png"/>
+              <!-- Unnamed () -->
+              <div id="u24639" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- select-2-1 (Checkbox) -->
+          <div id="u24640" class="ax_default checkbox" data-label="select-2-1">
+            <label for="u24640_input">
+              <!-- Unnamed () -->
+              <div id="u24641" class="text" style="visibility: visible;">
+                <p><span>期初结存</span></p>
+              </div>
+            </label>
+            <input id="u24640_input" type="checkbox" value="checkbox"/>
+          </div>
+
+          <!-- select-2-2 (Checkbox) -->
+          <div id="u24642" class="ax_default checkbox" data-label="select-2-2">
+            <label for="u24642_input">
+              <!-- Unnamed () -->
+              <div id="u24643" class="text" style="visibility: visible;">
+                <p><span>采购入库</span></p>
+              </div>
+            </label>
+            <input id="u24642_input" type="checkbox" value="checkbox"/>
+          </div>
+
+          <!-- select- 2- 3 (Checkbox) -->
+          <div id="u24644" class="ax_default checkbox" data-label="select- 2- 3">
+            <label for="u24644_input">
+              <!-- Unnamed () -->
+              <div id="u24645" class="text" style="visibility: visible;">
+                <p><span>调拨入库</span></p>
+              </div>
+            </label>
+            <input id="u24644_input" type="checkbox" value="checkbox"/>
+          </div>
+
+          <!-- selectAll2 (Checkbox) -->
+          <div id="u24646" class="ax_default checkbox" data-label="selectAll2">
+            <label for="u24646_input">
+              <!-- Unnamed () -->
+              <div id="u24647" class="text" style="visibility: visible;">
+                <p><span>全选</span></p>
+              </div>
+            </label>
+            <input id="u24646_input" type="checkbox" value="checkbox"/>
+          </div>
+
+          <!-- select- 2- 3 (Checkbox) -->
+          <div id="u24648" class="ax_default checkbox" data-label="select- 2- 3">
+            <label for="u24648_input">
+              <!-- Unnamed () -->
+              <div id="u24649" class="text" style="visibility: visible;">
+                <p><span>...</span></p>
+              </div>
+            </label>
+            <input id="u24648_input" type="checkbox" value="checkbox"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
