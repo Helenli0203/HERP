@@ -125,6 +125,32 @@
 }
 .icon {
 }
+._text-muted {
+  color:#999999;
+}
+._text-primary {
+  color:#428BCA;
+}
+._text-success {
+  color:#3C763D;
+}
+._text-info {
+  color:#31708F;
+}
+._text-warning {
+  color:#8A6D3B;
+}
+._text-danger {
+  color:#A94442;
+}
+.lead {
+  font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';
+  font-weight:200;
+  font-style:normal;
+  font-size:21px;
+  color:#333333;
+  line-height:29px;
+}
 ._btn-default {
   font-family:'HelveticaNeue', 'Helvetica Neue';
   font-weight:400;
@@ -153,8 +179,55 @@
   text-align:center;
   line-height:20px;
 }
+._btn-success {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._btn-success_hover {
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+.label1 {
+  font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  line-height:20px;
+}
+.form_text_field {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  line-height:20px;
+}
 .dropdown-menu_hover {
   line-height:26px;
+}
+._nav-tab_focused_tab {
+  color:#555555;
+  line-height:20px;
+}
+._nav-tab_background_tabs {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#428BCA;
+  text-align:center;
+  line-height:20px;
+}
+._nav-tab_tab_hover {
+  color:#2A6496;
+}
+._navbar-default_link_hover {
+  color:#2A6496;
 }
 ._pagination {
   font-family:'HelveticaNeue', 'Helvetica Neue';
@@ -163,6 +236,61 @@
   font-size:14px;
   color:#428BCA;
   line-height:26px;
+}
+._alert-success {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#3C763D;
+  line-height:20px;
+}
+._alert-info {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#31708F;
+  line-height:20px;
+}
+._alert-warning {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#8A6D3B;
+  line-height:20px;
+}
+._alert-danger {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#A94442;
+  line-height:20px;
+}
+._progressbar_base {
+  line-height:20px;
+}
+._progressbar_default {
+  line-height:20px;
+}
+._progressbar_success {
+  line-height:20px;
+}
+._progressbar_info {
+  line-height:20px;
+}
+._btn-grp__btn-default__ends_ {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#333333;
+}
+._btn-grp__btn-default_hover {
+}
+._btn-grp_divider {
 }
 ._modal-dialogue_header {
   font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
@@ -180,6 +308,21 @@
 }
 ._modal-backdrop {
 }
+._well__well-lg {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  line-height:20px;
+}
+._文本段落 {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+  line-height:20px;
+}
 .checkbox1 {
   font-family:'HelveticaNeue', 'Helvetica Neue';
   font-weight:400;
@@ -194,6 +337,13 @@
   font-size:14px;
   text-align:left;
   line-height:20px;
+}
+.shape1 {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+}
+.horizontal_line {
 }
 .heading_21 {
   font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
@@ -210,6 +360,13 @@
   font-size:24px;
   text-align:left;
   line-height:26px;
+}
+.heading_11 {
+  font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
+  font-weight:700;
+  font-style:normal;
+  font-size:36px;
+  text-align:left;
 }
 .heading_41 {
   font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
