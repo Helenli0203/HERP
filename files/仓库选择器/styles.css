@@ -1,9 +1,10 @@
 ﻿body {
   margin:0px;
+  background-color:rgba(242, 242, 242, 1);
   background-image:none;
   position:static;
   left:auto;
-  width:895px;
+  width:800px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -16,21 +17,21 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:845px;
-  height:460px;
+  width:670px;
+  height:361px;
 }
 #u1970 {
   position:absolute;
-  left:50px;
-  top:74px;
-  width:845px;
-  height:460px;
+  left:130px;
+  top:118px;
+  width:670px;
+  height:361px;
 }
 #u1971 {
   position:absolute;
   left:2px;
-  top:222px;
-  width:841px;
+  top:172px;
+  width:666px;
   visibility:hidden;
   word-wrap:break-word;
 }
