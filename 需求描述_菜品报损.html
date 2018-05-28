@@ -52,189 +52,189 @@
     <div id="base" class="">
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u0" class="ax_default heading_1">
-        <div id="u0_div" class=""></div>
+      <div id="u3522" class="ax_default heading_1">
+        <div id="u3522_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u1" class="text" style="visibility: visible;">
+        <div id="u3523" class="text" style="visibility: visible;">
           <p><span>菜品报损</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u2" class="ax_default heading_2">
-        <div id="u2_div" class=""></div>
+      <div id="u3524" class="ax_default heading_2">
+        <div id="u3524_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u3" class="text" style="visibility: visible;">
+        <div id="u3525" class="text" style="visibility: visible;">
           <p><span>适用场景：</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Image) -->
-      <div id="u4" class="ax_default image">
-        <img id="u4_img" class="img " src="images/需求描述_菜品报损/regen/u4.png"/>
+      <div id="u3526" class="ax_default image">
+        <img id="u3526_img" class="img " src="images/需求描述_菜品报损/u3526.png"/>
         <!-- Unnamed () -->
-        <div id="u5" class="text" style="display: none; visibility: hidden">
+        <div id="u3527" class="text" style="display: none; visibility: hidden">
           <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u6" class="ax_default paragraph">
-        <div id="u6_div" class=""></div>
+      <div id="u3528" class="ax_default paragraph">
+        <div id="u3528_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u7" class="text" style="visibility: visible;">
+        <div id="u3529" class="text" style="visibility: visible;">
           <p><span>&#149; 服务员打碎菜品。菜品没有销售结账所以对应原材料未扣库存。</span></p><p><span><br></span></p><p><span>&#149; 菜品损毁，对应原材料库存需要扣减。</span></p><p><span><br></span></p><p><span>&#149; 用户此时需要填写菜品报损单，系统根据菜品BoM扣减原材料库存</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Group) -->
-      <div id="u8" class="ax_default">
+      <div id="u3530" class="ax_default">
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u9" class="ax_default heading_2">
-          <div id="u9_div" class=""></div>
+        <div id="u3531" class="ax_default heading_2">
+          <div id="u3531_div" class=""></div>
           <!-- Unnamed () -->
-          <div id="u10" class="text" style="visibility: visible;">
+          <div id="u3532" class="text" style="visibility: visible;">
             <p style="font-size:24px;"><span>主要业务规则描述：</span></p><p style="font-size:12px;"><span>（结节规则可见原型及原型备注）</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u11" class="ax_default paragraph">
-          <div id="u11_div" class=""></div>
+        <div id="u3533" class="ax_default paragraph">
+          <div id="u3533_div" class=""></div>
           <!-- Unnamed () -->
-          <div id="u12" class="text" style="visibility: visible;">
-            <p><span>1. 用户填写报损单时只指定门店不指定门店仓库。如果一门店有多个仓库，报损单审核通过后系统根据门店仓库是否有需要扣减的物品生成出库单。即一张报损单可以生成多张出库单。</span></p><p><span><br></span></p><p><span>异常处理：</span></p><p><span>2. 如果同一物品同时存在报损门店的多个仓库时，系统可随机扣减其中一个仓库库存。(后期计划默认仓库设置功能，用户设置门店默认仓库后系统扣减默认仓库中的库存) 如果物品不存在于任何门店的任何仓库，系统略过该物品出库处理。</span></p><p><span><br></span></p><p><span>3. 如果仓库中有至少存在一个出库单中需要扣减的物品，出库单可正常生成但不包含未仓库中不存在的物品。如果仓库中没有任何出库单中需要扣减的物品，系统不生成出库单(出库单内物品不能为空)。</span></p><p><span><br></span></p><p><span>4. 如果需要出库的仓库处理锁库状态，</span></p><p><span>若报损单不需要审批，用户提交报损单时系统提示提交失败消息&quot;[仓库名称]处于锁库状态，请解锁后再试。&quot;，系统阻止报损单提交，报损单仍保持‘草稿’ 状态，若报损单需要审批，用户点击审核通过后系统提示失败消息&quot;[仓库名称]处理锁库状态，请解锁后再试。&quot;，且报损单仍保持‘审核中’状态。如果多个仓库处于锁库状态， 提示消息为&quot;[仓库名称1]、[仓库名称2]处于锁库状态，请解锁后再试&quot;</span></p><p><span><br></span></p><p><span>[替代方案]无论报损单是否需要审批，系统都允许报损单提交和审核通过。系统生成出库单后，出库单处于草稿状态。仓库解锁后用户可提交该出库单，提交后对应库存扣减。(根据潘反馈方案一实现需要做复杂的改动对系统稳定性影响极大，考虑该异常对核心功能几乎没影响，现阶段采用此替代方案。)</span></p><p><span><br></span></p><p><span>多级BoM处理：</span></p><p><span>5. 逐级检测，哪级构成物品存在于仓库系统扣哪一级构成物库存。如果父级构成物品不存在于仓库，检查下一级构成。父级构成库存扣减后将不再扣除子级构成库存。</span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span></p><p><span><br></span></p><p><span><br></span></p>
+          <div id="u3534" class="text" style="visibility: visible;">
+            <p><span>1. 用户填写报损单时只指定门店不指定门店仓库。如果一门店有多个仓库，报损单审核通过后系统根据门店仓库是否有需要扣减的物品生成出库单。即一张报损单可以生成多张出库单。</span></p><p><span><br></span></p><p><span>异常处理：</span></p><p><span>2. 如果同一物品同时存在报损门店的多个仓库时，系统可随机扣减其中一个仓库库存。(后期计划默认仓库设置功能，用户设置门店默认仓库后系统扣减默认仓库中的库存) 如果物品不存在于任何门店的任何仓库，系统略过该物品出库处理。</span></p><p><span><br></span></p><p><span>3. 如果仓库中有至少存在一个出库单中需要扣减的物品，出库单可正常生成但不包含未仓库中不存在的物品。如果仓库中没有任何出库单中需要扣减的物品，系统不生成出库单(出库单内物品不能为空)。</span></p><p><span><br></span></p><p><span>4. 如果需要出库的仓库处理锁库状态，</span></p><p><span>若报损单不需要审批，用户提交报损单时系统提示提交失败消息&quot;[仓库名称]处于锁库状态，请解锁后再试。&quot;，系统阻止报损单提交，报损单仍保持‘草稿’ 状态，若报损单需要审批，用户点击审核通过后系统提示失败消息&quot;[仓库名称]处理锁库状态，请解锁后再试。&quot;，且报损单仍保持‘审核中’状态。如果多个仓库处于锁库状态， 提示消息为&quot;[仓库名称1]、[仓库名称2]处于锁库状态，请解锁后再试&quot;</span></p><p><span><br></span></p><p><span>[替代方案]无论报损单是否需要审批，系统都允许报损单提交和审核通过。系统生成出库单后，出库单处理待出库状态。仓库解锁后系统自动提交该出库单，对应库存扣减。(根据潘反馈方案一实现需要做复杂的改动对系统稳定性影响极大，考虑该异常对核心功能几乎没影响，现阶段采用此替代方案。)</span></p><p><span><br></span></p><p><span>多级BoM处理：</span></p><p><span>5. 逐级检测，哪级构成物品存在于仓库系统扣哪一级构成物库存。如果父级构成物品不存在于仓库，检查下一级构成。父级构成库存扣减后将不再扣除子级构成库存。</span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span></p><p><span><br></span></p><p><span><br></span></p>
           </div>
         </div>
       </div>
 
       <!-- <h2> (Rectangle) -->
-      <div id="u13" class="ax_default heading_21" data-label="&lt;h2&gt;">
-        <div id="u13_div" class=""></div>
+      <div id="u3535" class="ax_default heading_21" data-label="&lt;h2&gt;">
+        <div id="u3535_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u14" class="text" style="display: none; visibility: hidden">
+        <div id="u3536" class="text" style="display: none; visibility: hidden">
           <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u15" class="ax_default heading_2">
-        <div id="u15_div" class=""></div>
+      <div id="u3537" class="ax_default heading_2">
+        <div id="u3537_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u16" class="text" style="visibility: visible;">
+        <div id="u3538" class="text" style="visibility: visible;">
           <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">菜品报损单实体关联图</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">:</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u17" class="ax_default label">
-        <div id="u17_div" class=""></div>
+      <div id="u3539" class="ax_default label">
+        <div id="u3539_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u18" class="text" style="visibility: visible;">
+        <div id="u3540" class="text" style="visibility: visible;">
           <p><span style="text-decoration:underline;">https://www.processon.com/view/link/5ad46aede4b0518eacb413e6</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u19" class="ax_default heading_2">
-        <div id="u19_div" class=""></div>
+      <div id="u3541" class="ax_default heading_2">
+        <div id="u3541_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u20" class="text" style="visibility: visible;">
+        <div id="u3542" class="text" style="visibility: visible;">
           <p><span>菜品报损单状态图</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u21" class="ax_default label">
-        <div id="u21_div" class=""></div>
+      <div id="u3543" class="ax_default label">
+        <div id="u3543_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u22" class="text" style="visibility: visible;">
+        <div id="u3544" class="text" style="visibility: visible;">
           <p><span>同物料报损单状态图</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Group) -->
-      <div id="u23" class="ax_default">
+      <div id="u3545" class="ax_default">
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u24" class="ax_default heading_2">
-          <div id="u24_div" class=""></div>
+        <div id="u3546" class="ax_default heading_2">
+          <div id="u3546_div" class=""></div>
           <!-- Unnamed () -->
-          <div id="u25" class="text" style="visibility: visible;">
+          <div id="u3547" class="text" style="visibility: visible;">
             <p><span>菜品报损活动图</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u26" class="ax_default label">
-          <div id="u26_div" class=""></div>
+        <div id="u3548" class="ax_default label">
+          <div id="u3548_div" class=""></div>
           <!-- Unnamed () -->
-          <div id="u27" class="text" style="visibility: visible;">
+          <div id="u3549" class="text" style="visibility: visible;">
             <p><span>同物料报损</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Image) -->
-        <div id="u28" class="ax_default image">
-          <img id="u28_img" class="img " src="images/需求描述_菜品报损/regen/u28.png"/>
+        <div id="u3550" class="ax_default image">
+          <img id="u3550_img" class="img " src="images/需求描述_菜品报损/u3550.png"/>
           <!-- Unnamed () -->
-          <div id="u29" class="text" style="display: none; visibility: hidden">
+          <div id="u3551" class="text" style="display: none; visibility: hidden">
             <p><span></span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (Image) -->
-      <div id="u30" class="ax_default image">
-        <img id="u30_img" class="img " src="images/需求描述_菜品报损/regen/u30.png"/>
+      <div id="u3552" class="ax_default image">
+        <img id="u3552_img" class="img " src="images/需求描述_菜品报损/u3552.png"/>
         <!-- Unnamed () -->
-        <div id="u31" class="text" style="display: none; visibility: hidden">
+        <div id="u3553" class="text" style="display: none; visibility: hidden">
           <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u32" class="ax_default heading_2">
-        <div id="u32_div" class=""></div>
+      <div id="u3554" class="ax_default heading_2">
+        <div id="u3554_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u33" class="text" style="visibility: visible;">
+        <div id="u3555" class="text" style="visibility: visible;">
           <p><span>原型</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u34" class="ax_default box_1">
-        <img id="u34_img" class="img " src="images/需求描述_菜品报损/regen/u34.png"/>
+      <div id="u3556" class="ax_default box_1">
+        <img id="u3556_img" class="img " src="images/需求描述_菜品报损/u3556.png"/>
         <!-- Unnamed () -->
-        <div id="u35" class="text" style="display: none; visibility: hidden">
+        <div id="u3557" class="text" style="display: none; visibility: hidden">
           <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u36" class="ax_default box_1">
-        <img id="u36_img" class="img " src="images/需求描述_菜品报损/regen/u36.png"/>
+      <div id="u3558" class="ax_default box_1">
+        <img id="u3558_img" class="img " src="images/需求描述_菜品报损/u3558.png"/>
         <!-- Unnamed () -->
-        <div id="u37" class="text" style="display: none; visibility: hidden">
+        <div id="u3559" class="text" style="display: none; visibility: hidden">
           <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u38" class="ax_default label">
-        <div id="u38_div" class=""></div>
+      <div id="u3560" class="ax_default label">
+        <div id="u3560_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u39" class="text" style="visibility: visible;">
+        <div id="u3561" class="text" style="visibility: visible;">
           <p><span>虚线框内状态为配置审批流后的状态。</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u40" class="ax_default label">
-        <div id="u40_div" class=""></div>
+      <div id="u3562" class="ax_default label">
+        <div id="u3562_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u41" class="text" style="visibility: visible;">
+        <div id="u3563" class="text" style="visibility: visible;">
           <p><span>虚线框内状态为配置审批流后的活动</span></p>
         </div>
       </div>
