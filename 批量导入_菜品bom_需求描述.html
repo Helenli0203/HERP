@@ -52,37 +52,37 @@
     <div id="base" class="">
 
       <!-- <h2> (Rectangle) -->
-      <div id="u23405" class="ax_default heading_21" data-label="&lt;h2&gt;">
-        <div id="u23405_div" class=""></div>
+      <div id="u23982" class="ax_default heading_21" data-label="&lt;h2&gt;">
+        <div id="u23982_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u23406" class="text" style="visibility: visible;">
+        <div id="u23983" class="text" style="visibility: visible;">
           <p><span>需求描述</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u23407" class="ax_default paragraph">
-        <div id="u23407_div" class=""></div>
+      <div id="u23984" class="ax_default paragraph">
+        <div id="u23984_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u23408" class="text" style="visibility: visible;">
+        <div id="u23985" class="text" style="visibility: visible;">
           <p><span style="font-family:'ArialMT', 'Arial';">1. </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">导入方式为菜品级增量导入：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">例： 系统中菜品A的BoM, 用户通过文件导入菜品B的BoM, 导入成功后系统中有菜品A及菜品B的BoM。 </span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">菜品BoM级全量导入: 菜品最新导入的BoM内容完全替换已有的BoM</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">例： 系统中有菜品A (番茄炒蛋) 的BoM， BoM内容为番茄200g, 鸡蛋2个。用户通过文件导入菜品A（番茄炒蛋) 的BoM为番茄100g, 鸡蛋1个，色拉油100g, 导入后系统中菜品A的BoM更新为最新导入的数据: 番茄100g, 鸡蛋1个，色拉油100g。如果此例中菜品A的导入数据为香葱100g, 鸡蛋2个，导入后菜品A的BoM更新为: 香葱100g, 鸡蛋2个。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2. 导入出错处理:</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 菜品信息导入出错如文件中菜品编码与系统中菜品编码不匹配，系统跳过该菜品BoM导入，但继续导入其它菜品BoM. </span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 菜品中某物料导入出错如物料编码不匹配，系统跳过整个该菜品的BoM导入，但继续导入其它菜品BoM. 例文件中菜品番茄炒蛋的BoM为: 番茄100g, 鸡蛋 2个。 导入时番茄导入出错，系统应跳过该菜品的BoM导入(成分鸡蛋也不会被导入)。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">3. 导入字段说明：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 菜品编码: 必填。表示为该菜品导入BoM, 菜品编码需与系统中存在的菜品编码精确匹配。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 菜品名称: 选填。 系统不校验该字段。系统中的菜品名称取菜品编码在系统中对应的菜品名称。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 组成分份编码: 必填。菜品成分的唯一标识。对应系统中物品档案中的 &quot;物品编码&quot;。 精确匹配。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 组成成份名称: 选填。 与菜品名称处理一致。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 成份数量: 必填。必须为数字，最多可输入8位小数。导入后显示文件中的成份数量。显示即输入: 文件中数量为几位，显示即为几位。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 成分计量单位: 必填。 需要与成分在系统中的库存单位精确匹配。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 损耗率: 选填。如有值， 必须小于1. 小数位最多为4位小数。可为0. 如果为空，系统默认损耗率为0(导入后显示0). </span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 导入后&quot;是否分解&quot;默认为不可分解， 控制方式默认为时间控制。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">4. 支持两种文件导入格式: xls, xlsx。 </span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">5. 模板上传文件最大为：10M. 超限后上传失败。提示用户: “上传失败： 文件超过最大限制(10M).&nbsp; 您可以尝试拆分为多个文件后上传。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">6. 导入时需过滤单元格中字条串前后空格。例如系统中有物品编码123, 物品编码列表中[space]123[spece]也可以成功导入</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">7. UI交互要求:</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 导入中需要显示导入进度条。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 如全部数据导入成功，提示导入成功消息，停留当前物料清单页面</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 如文件内容全部导入失败，提示: 导入失败，请检查文件后再试。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 如部分物品导入失败，显示对话框列出导入失败的菜品。见&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 原型，</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u23409" class="ax_default label">
-        <div id="u23409_div" class=""></div>
+      <div id="u23986" class="ax_default label">
+        <div id="u23986_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u23410" class="text" style="visibility: visible;">
+        <div id="u23987" class="text" style="visibility: visible;">
           <p><span>部分菜品BoM未导入</span></p>
         </div>
       </div>
 
       <!-- <h2> (Rectangle) -->
-      <div id="u23411" class="ax_default heading_21" data-label="&lt;h2&gt;">
-        <div id="u23411_div" class=""></div>
+      <div id="u23988" class="ax_default heading_21" data-label="&lt;h2&gt;">
+        <div id="u23988_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u23412" class="text" style="visibility: visible;">
+        <div id="u23989" class="text" style="visibility: visible;">
           <p><span>原型</span></p>
         </div>
       </div>
