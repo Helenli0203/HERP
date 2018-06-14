@@ -226,6 +226,21 @@
 ._nav-tab_tab_hover {
   color:#2A6496;
 }
+._nav-pills_focused_pill {
+  color:#FFFFFF;
+}
+._nav-pills_background_pills {
+  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#428BCA;
+  text-align:left;
+  line-height:20px;
+}
+._nav-pills_pill_hover {
+  color:#2A6496;
+}
 ._navbar-default_link_hover {
   color:#2A6496;
 }
